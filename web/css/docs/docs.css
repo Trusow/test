@@ -1,0 +1,43 @@
+.docs_body {
+    margin-bottom: 10px;
+}
+.docs_err {
+    color: red;
+}
+.docs_empty {
+    color: #aaa;
+}
+.docs_input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+textarea.docs_input {
+    resize: vertical;
+    min-height: 200px;
+}
+.docs_item_buttons {
+    display: flex;
+}
+.docs_remove_button {
+    margin-left: 10px;
+}
+.docs_item_title {
+    padding: 10px;
+    font-weight: bold;
+}
+.docs_item_body {
+    font-style: italic;
+    margin: 0 10px;
+    margin-bottom: 4px;
+}
+.docs_item {
+    margin-top: 20px;
+    border-left: solid 4px #ffdd9f;
+    padding: 10px;
+}
+.docs_item_edit {
+    border-left: solid 4px orange;
+}
+[v-cloak] {
+    display: none;
+}
